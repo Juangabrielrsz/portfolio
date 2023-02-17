@@ -5,7 +5,7 @@ import '../styles/components/socialnetworks.sass';
 import React from 'react'
 
 const socialNetworks = [
-  { name: "linkedin", icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/juan-gabriel-421886252/" },
+  { name: "linkedin", icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/juangabrieldev/" },
   { name: "github", icon: <FaGithub />, link: "https://github.com/Juangabrielrsz" },
   { name: "instagram", icon: <FaInstagram />, link: "https://www.instagram.com/juangabrielrsz/" },
 ];
