@@ -1,6 +1,6 @@
 function Pdf() {
   const handleDownload = () => {
-    const pdfPath = './src/files/MeuCurriculo.pdf';
+    const pdfPath = './src/files/Curriculo.pdf';
     const link = document.createElement('a');
     link.href = pdfPath;
     link.download = "curriculo.pdf";
