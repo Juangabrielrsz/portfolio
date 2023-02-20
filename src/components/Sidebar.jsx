@@ -1,5 +1,7 @@
 import SocialNetworkContainer from "./SocialNetworkContainer";
 import InformationContainer from "./InformationContainer";
+import Pdf from "./Pdf";
+
 
 import Avatar from '../img/eu.png';
 
@@ -12,9 +14,7 @@ const Sidebar = () => {
       <p className="title">Desenvolvedor</p>
       <SocialNetworkContainer />
       <InformationContainer />
-      <a href="../files/curriculo.pdf" download="curriculo"  className="btn">
-        Download currículo
-      </a>
+      <Pdf />
     </aside>
   );
 };
