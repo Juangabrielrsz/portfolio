@@ -1,6 +1,6 @@
 import SocialNetworkContainer from "./SocialNetworkContainer";
 import InformationContainer from "./InformationContainer";
-import Pdf from "./Pdf";
+
 
 
 import Avatar from '../img/eu.png';
@@ -14,7 +14,7 @@ const Sidebar = () => {
       <p className="title">Desenvolvedor</p>
       <SocialNetworkContainer />
       <InformationContainer />
-      <Pdf />
+      
     </aside>
   );
 };
