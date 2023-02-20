@@ -10,7 +10,7 @@ function Pdf() {
   };
 
   return (
-    <button onClick={handleDownload} className="btn">Baixar Curriculo</button>
+    <button onClick={handleDownload} className="btn">Download Curriculo</button>
   );
 }
 
